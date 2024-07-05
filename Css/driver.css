@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-image: url(/Images/img99.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  
+}
+
+.container{
+
+    max-width: 900px;
+   
+    margin: 0 auto;
+  
+}
+.apply_box{
+     max-width: 600px;
+    
+     padding: 20px;
+     background-color: rgba(154, 164, 189, 0.527);
+    
+     margin: 0 AUTO;
+     margin-top: 30PX;
+     box-shadow: 4PX 3PX 5PX;  
+     border-radius: 5px; 
+
+}
+.form_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit ,  minmax(200px, 1fr));
+    gap: 20px;
+}
+.form_controler{
+    display: grid;
+    direction:row;
+
+}
+label{
+    font-size: 15px;
+}
+input , .textarea
+{
+    padding: 6px 10px;
+    border : 1px solid #ccc;
+
+}
+
+input:focus{
+    outline-color: rgb(11, 11, 11);
+}
+
+.button_container{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 20px;
+   
+}
+
+.button_container2{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 10px;
+    margin-left: 560px;
+}
+
+
+
+button{
+background-color: rgb(255, 21, 0);
+border-radius: 8px;
+color: white;
+padding: 3px;
+border: transparent solid 2px;
+
+}
+h1{
+
+    margin-bottom: 30px;
+}
+button:hover{
+    background-color: #ccc;
+    color: black;
+}

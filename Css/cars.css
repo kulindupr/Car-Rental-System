@@ -1,0 +1,76 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: url('/Images/Background.jpg')no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  filter: blur(100%);
+}
+
+.header {
+  padding: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: inline-block;
+  width: 300px;
+  background-color: rgb(148, 148, 148);
+  border-radius: 5px;
+  margin: 40px;
+  box-shadow: 2px 2px 10px black;
+}
+
+.img1 {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.title {
+  text-align: center;
+  padding: 5px;
+}
+
+.des {
+  text-align: center;
+  padding: 4px;
+}
+
+button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+
+button:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  transition: .5s;
+}
+
+.para1 {
+  font-size: 1px;
+}

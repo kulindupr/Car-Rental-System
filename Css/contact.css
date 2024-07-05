@@ -1,0 +1,179 @@
+.h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(28, 112, 209);
+    font-size: 110%;
+
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(28, 112, 209);
+    font-size: 20px;
+    margin-left: 75%;
+
+}
+
+body{
+
+    background-image: url("../images/cbg1.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+  
+}
+
+.p1{
+   
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    color:rgba(0, 0, 0, 0.952);
+ 
+}
+
+
+
+.box{
+    margin-left: 450px;
+    margin-top: 50px;
+    position: absolute;
+    width:500px
+    
+}
+
+.cf4{
+    height : 100px;
+    width: 250px;
+    
+}
+
+
+
+
+
+#animatedText {
+    display: inline-block;
+    font-size: 30px;
+    color: #e91603d9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-left: 20px;
+   
+}
+
+
+
+
+
+.cf5{
+    margin-left: 82px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+ 
+    box-sizing: border-box;
+    color: #f7f3f3;
+    background-color: #01070c8f;
+
+}
+
+.cf4{
+    margin-left: 100px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #f74a4a;
+   
+    box-sizing: border-box;
+    color: #ccc;
+
+}
+
+.p3{
+    font-size: 95%;
+    margin-top: 120px;
+    position: absolute;
+   margin-left: 20px;
+   color: rgba(0, 5, 5, 0.952);
+ 
+   
+}
+
+
+
+
+button{
+    width: 30%;
+    padding: 10px;
+    background-color: #48f345;
+    border: none;
+    color: #040404;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button:hover{
+
+    background-color: #fafaf5;
+}
+
+
+
+.cf1{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #f74a4a;
+ 
+  box-sizing: border-box;
+  color: #ccc;
+
+  
+}
+
+.cf2{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #f74a4a;
+
+  box-sizing: border-box;
+  color: #ccc;
+
+}
+
+.cf3{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+
+  box-sizing: border-box;
+  color: #ccc;
+
+}
+
+label{
+    color: rgba(0, 8, 8, 0.952);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+
+input{
+     background-color: #01070c8f;
+}
+
+.mapouter{
+   position: absolute;
+   margin-left: 1150px;
+border-radius: 2%;
+
+}

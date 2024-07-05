@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+  }
+  
+  .Pheader {
+    background-color: #7ec0fe8a;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+ .tp{
+     align-items: center;
+ }
+
+ h2{
+   color:rgba(0, 0, 0, 0.94);
+ }

@@ -1,0 +1,61 @@
+body{
+ background-image: url("back5.jpeg");
+ background-repeat: no-repeat;
+ background-size: 100%;
+
+}
+.blog-section{
+    width: 100%;
+}
+.blog-section .section-content
+{
+    width: 100%;
+    margin: 20px auto;
+}
+.blog-section .section-content .title
+{
+     width: 70%;
+     text-align: center;
+     margin: auto;
+     color: #ffffff;
+
+}
+.blog-section .section-content .title h2
+{
+   font-size: 40px;
+   color: #ffffff;
+   text-transform: uppercase;
+}
+.blog-section .section-content .cards
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 25px;
+    margin: 20px auto;
+
+}
+.blog-section .section-content .cards .card
+{
+   width: 100%;
+   background-color: rgba(2, 37, 55, 0.778);
+   position: relative;
+   color: #ffffff;
+
+
+}
+.blog-section .section-content .cards .card img
+{
+  width: 100%;
+  height: auto;
+}
+.blog-section .section-content .cards .card .article
+{
+    padding: 15px 20px;
+}
+.blog-section .section-content .cards .card .article h4
+{
+font-size: 24px;
+color: rgb(255, 255, 255);
+}
+
+
